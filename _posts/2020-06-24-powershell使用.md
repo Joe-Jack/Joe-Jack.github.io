@@ -1,5 +1,5 @@
 ---
-title: 常用命令及用法
+title: powershell常用命令及用法
 date: 2020-06-24 20:17
 description: 这是网站搭建完成后的第一篇博客。用来测试代码，数学公式。目前发现不能很好地支持数学公式，其暂时没有其他问题。又发现插图片必须使用网址，而不能从本地导入，总而言之，对不会计算机的人不友好。
 categories:
@@ -94,12 +94,12 @@ cp cool.txt next.txt //将cool文件复制并生成新的next文件
 
 - 将文件复制到一个目录
 
-  ```c
-  //现在temp目录下生成一个something目录
-  mkdir something
-  //将cool.txt复制到新目录
-  cp cool.txt something/
-  ```
+```c
+//现在temp目录下生成一个something目录
+mkdir something
+//将cool.txt复制到新目录
+cp cool.txt something/
+```
 
 - 将一个文件夹复制到另一个新的文件夹
 
@@ -112,16 +112,16 @@ cp -recurse something newplace
 
 - 将文件重命名
 
-  ```c
-  mv neat.txt neat1.txt
-  ```
+```c
+mv neat.txt neat1.txt
+```
 
 - 将文件移动到新的文件夹/或者移动到一个已存在的文件夹
 
-  ```c
-  mv newplace oldplace
-  mv oldplace newplace
-  ```
+```c
+mv newplace oldplace
+mv oldplace newplace
+```
 
 #### 10.查看文件内容more
 
