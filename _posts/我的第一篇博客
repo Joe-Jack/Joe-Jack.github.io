@@ -1,0 +1,55 @@
+---
+title: 我的第一篇博客
+date: 2020-05-21 20:17
+description: 这是网站搭建完成后的第一篇博客。用来测试代码，数学公式。目前发现不能很好地支持数学公式，其暂时没有其他问题。又发现插图片必须使用网址，而不能从本地导入，总而言之，对不会计算机的人不友好。
+categories:
+- signal
+- mathematics
+- engineer
+- markdown
+
+---
+
+首先测试正常markdown语法：
+
+- 这是第一条
+
+### 这是个标题
+
+下面是一段代码：
+
+```python
+test = raw_input("请输入一个数字")
+if test > 3:
+    print"真的假的"
+else:
+    print"成功了吗？"
+```
+
+## 下面是markdown数学公式
+
+很明显，数学公式不能展现。
+$$
+W* = 
+\left[
+\begin{array}{ccc}
+w_1^*&w_2^*&...&w_N^*
+\end{array}
+\right]
+$$
+
+- 用P和R表示{$E[e_j^2]$}最小的$W^*$权向量
+
+$$
+\begin{align}
+E(e_j^2) &= E[(d_j - X_j^TW)^2]\\
+& = E[d_j^2 - 2d_jX_j^TW + (X_j^TW)^2]\\
+& = E[d_j^2]- 2E[d_jX_j^TW] + E[W^TX_j*X_j^TW]\\
+& = E[d_j^2] - 2P^TW + W^TRW
+\end{align}
+$$
+
+试一试插入图片：
+
+![](http://latex.codecogs.com/gif.latex?\\sigma=\sqrt{\frac{1}{n}{\sum_{k=1}^n(x_i-\bar{x})^2}})
+
