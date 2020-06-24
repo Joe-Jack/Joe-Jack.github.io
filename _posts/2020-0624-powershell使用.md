@@ -7,8 +7,6 @@ categories:
 - mathematics
 - engineer
 - markdown
-
-## powershell 
 ---
 
 ### 1.常用命令及用法
